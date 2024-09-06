@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Carros</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo/Acessórios.png" alt="Logo" id="logo">
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="lista.html">Carros</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="car-filter">
+            <h2>Filtrar Carros</h2>
+            <form id="filter-form">
+                <label for="brand">Marca:</label>
+                <select id="brand" name="brand">
+                    <option value="">Todas</option>
+                    <option value="ford">Ford</option>
+                    <option value="toyota">Toyota</option>
+                </select>
+
+                <label for="model">Modelo:</label>
+                <input type="text" id="model" name="model">
+
+                <label for="price">Faixa de Preço:</label>
+                <input type="text" id="price" name="price">
+
+                <button type="submit">Filtrar</button>
+            </form>
+        </section>
+
+        <section id="car-list">
+            <h2>Lista de Carros</h2>
+            <!-- Exemplo de carro na lista -->
+            <article class="car-card">
+                <img src="img/lista/vermelho.png" alt="Carro 1">
+                <h3><a href="detalhes.html"></a>Fiat Toro 2021 Endurance 1.8 AT6 Flex</h3>
+                <p>Descrição curta do carro.</p>
+            </article>
+            <!-- Mais carros -->
+
+            <article class="car-card">
+                <img src="img/lista/branco.png" alt="Carro 2">
+                <h3><a href="detalhes.html">Titano 2.2 Turbo Diesel Volcano 4x4 AT6</a></h3>
+                <p>Descrição curta do carro.</p>
+            </article>
+
+            <article class="car-card">
+                <img src="img/lista/preto.png" alt="Carro 3">
+                <h3><a href="detalhes.html">Fiat Strada 2021 a 2023</a></h3>
+                <p>Descrição curta do carro.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vendas de Carros Novos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+```

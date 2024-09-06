@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <form action="/submit-url-aqui" method="POST">
+        <h2>Exemplo de Formulário HTML</h2>
+        <!-- Campos de entrada -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required placeholder=" Informe seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Informe seu email">
+
+        <label for="idade">Idade:</label>
+        <input type="numero" id="idade" name="idade" min="18" max="120" placeholder="Informe sua idade">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder=" Digite uma mensagem"></textarea>
+
+        <div class="checkgender">
+            <h4>Genero:</h4>
+            <div class="masculino">
+                <label for="masculino">Masculino:</label>
+                <input type="radio" id="masculino" name="genero" value="masculino">    
+            </div>
+            
+            <div class="feminino">
+                <label for="feminino">Feminino:</label>
+                <input type="radio" id="feminino" name="genero" value="feminino">
+            </div>
+            
+        </div>  
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>

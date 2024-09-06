@@ -1,0 +1,12 @@
+.containe { display: flex;
+    justify-content: space;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+}
+.item { background-color: aquamarine;
+    width: 300 px;
+    height: 300 px;
+
+}

@@ -1,0 +1,122 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #dee7e0;
+    padding: 20px;
+}
+
+/* Estilo para títulos */
+h1, h2, h3, h4 {
+    color: #0e0d0d;
+    margin-bottom: 10px;
+}
+
+/* Estilo específico para h1 */
+h1 {
+    font-size: 50px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Estilo para listas não ordenadas */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para listas ordenadas */
+ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para parágrafos */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Estilo para vídeos */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Estilo para tabelas */
+table {
+    width: 500px;
+    border-bottom: 10px;
+    margin-bottom: 200px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #e42626;
+}
+
+/* Estilo para o formulário */
+.form-container {
+    max-width: 300px;
+    height: auto;
+    background: #a8e7bb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(230, 4, 4, 0.1);
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilo para o rodapé */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}

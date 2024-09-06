@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header #titulo {
+    font-size: 24px;
+}
+
+main {
+    background-color: rgb(230, 157, 22);
+
+}
+
+article.movie {
+    background-color: brown;
+    width: 400px;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moviebox {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    background-color: azure;
+    flex-wrap: wrap;
+}
+
+.moviebox,
+h2 {
+    display: flex;
+    text-align: center;
+}
+
+.moviebox,
+p {
+    display: flex;
+    text-indent: 15px;
+    height: auto;
+    text-align: justify;
+    padding: 9px 9px;
+    margin-bottom: auto;
+}
+
+img {
+    margin-top: 9px;
+    text-align: center;
+    width: 200;
+    height: 400;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+
+/*.moviebox {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    background-color: azure;
+    flex-wrap: wrap;
+}
+
+.moviebox, p {
+    display: flex;
+    text-indent: 15px;
+    height: auto;
+    text-align: justify;
+    padding: 9px 9px;
+    margin-bottom: auto;
+    
+}
+
+.moviebox, h2 {
+    display: flex;
+    text-align: center;
+    
+}
+
+.movie {
+    background-color: bisque;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-filme {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+img {margin-top: 9px;
+    text-align: center;
+    width: 220px;
+    height: auto;
+
+}*/
